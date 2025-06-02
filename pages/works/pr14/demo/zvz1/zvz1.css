@@ -1,0 +1,35 @@
+@keyframes slide{
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    100%{
+        left: 100px;
+        top: 0px;
+    }
+}
+.stage{
+    background: #eaeaed;
+    border-radius: 6px;
+    height: 150px;
+    position: relative;
+    min-width: 538px;
+}
+.stage:hover .kub{
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+}
+.kub{
+    background: rgb(121, 231, 235);
+    height: 75px;
+    position: absolute;
+    width: 75px;
+    border-width: 3px;
+    border-color: black;
+    border-style:solid ;
+}
+figure{
+    margin: 0;
+}

@@ -1,0 +1,97 @@
+@font-face{
+    font-family: OpenSans;
+    src: url(./font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: OpenSans;
+    color: #000000;
+    background-color: #fff;
+}
+
+.container {
+    width: 1600px;
+    height: 1134px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.first{
+    padding-top: 130px;
+}
+
+.intro{
+    width: 373px;
+    height: 233px;
+}
+
+.parfume{
+    width: 373px;
+    height: 216px;
+}
+
+.intro, .parfume{
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+}
+
+.parfume{
+    padding-left: 165px;
+}
+
+.second{
+    padding-top: 50px;
+}
+
+.first, .second{
+    width: 1140px;
+    height: 263px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.full-width {
+    width: 270px;
+    height: 250px;
+    margin: 10px 0;
+    object-fit: cover;
+}
+
+.intro, .brands, .cooperation, .parfume {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.stats {
+    width: 1605px;
+    height: 304px;
+    background: url(img/gorod.png);
+    background-position-y: -370px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.stat {
+    flex: 1 1 200px;
+    margin-top: 50px;
+}
+
+.stat .number {
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.stat .label {
+    font-size: 20px;
+    color: #ffffff;
+}
